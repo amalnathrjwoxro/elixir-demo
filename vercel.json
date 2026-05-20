@@ -1,0 +1,12 @@
+{
+  "name": "elixir-anfield",
+  "version": 2,
+  "buildCommand": "",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}

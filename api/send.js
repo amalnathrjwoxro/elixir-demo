@@ -30,7 +30,7 @@ module.exports = async function handler(req, res) {
 
   try {
     await client.send({
-      from: { email: "hello@demomailtrap.co", name: "Anfield Enquiry" },
+      from: { email: "no-reply@elixirhomes.com", name: "Anfield Enquiry" },
       to: [{ email: "sales@elixirhomes.com" }],
       subject: `New Anfield Enquiry - ${enquiry}`,
       html: `
